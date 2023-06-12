@@ -7,4 +7,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   target: 'node',
+  plugins: [
+    new HtmlWebpackPlugin({
+        template: './views/webcamFaceLandmarkDetection.html'
+    })
+    
+  ],
+
 };
