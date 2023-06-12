@@ -1,10 +1,9 @@
 {
   "scripts": {
     "start": "node server.js",
-    // "build": "webpack --config webpack.config.js"
-    "build": "node server.js"
+    "build": "webpack"
   },
-  "author": "justadudewhohacks",
+  "author": "sumedh-kane",
   "license": "MIT",
   "dependencies": {
     "async_hooks": "^1.0.0",
