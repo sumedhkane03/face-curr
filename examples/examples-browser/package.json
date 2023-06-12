@@ -6,6 +6,7 @@
   "author": "justadudewhohacks",
   "license": "MIT",
   "dependencies": {
+    "async_hooks": "^1.0.0",
     "babel-loader": "^9.1.2",
     "express": "^4.17.1",
     "html-webpack-plugin": "^5.5.3",
