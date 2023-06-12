@@ -23,7 +23,7 @@ module.exports = {
       template: './views/webcamFaceLandmarkDetection.html'
     })
   ],
-  stats: {
-    errors: false
+  optimization: {
+    emitOnErrors: false
   }
 };
